@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Zilla Slab', serif;
+}
+
+.contenu_vignette {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center ;
+    background-color:#f1eaea;
+    padding: 20px;
+
+}
+
+.vignette {
+    width: 30%;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 1.6em;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 300;
+}
+
+.vignette p {
+    padding: 10px;
+}
+
+.image {
+    width : 40% ; 
+    margin: auto;
+}
+
+.image img {
+    width: 100%;
+}
+
+button {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    padding: 10px;
+    color : white ; 
+    background-color: rgb(3, 26, 61);
+    border : 0; 
+    border-radius: 1.2em;
+    margin: 10px;
+    transition: transform .2s;
+}
+
+button:hover {
+    cursor: pointer;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+/* css header */
+
+.contenu_header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(3, 26, 61) ;
+    align-items: center;
+}
+
+.contenu_header ul {
+    display: flex ; 
+    list-style: none;
+    padding: 20px ; 
+}
+
+.contenu_header li {
+    padding: 10px 30px;
+    margin : 10px ; 
+}
+
+.contenu_header a {
+    text-decoration: none;
+    color : white ; 
+    display: inline-block;
+}
+
+.contenu_header a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.contenu_header a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}    
+
+.contenu_header h3 {
+    padding: 30px;
+    margin: 10px;
+    color: white;
+}
