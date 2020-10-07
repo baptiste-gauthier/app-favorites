@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@400;800;900&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Biryani', sans-serif;
+}
+
+/* --------------------------------- CSS SECTION 1 ------------------------------------*/ 
+
+.contenu_telecharge_spotify {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo_playstore {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+}   
+
+.logo_playstore div {
+    width : 50% ; 
+    padding: 10px;
+}
+
+.logo_playstore div img {
+    width: 100%;
+}
+
+.contenu_telecharge_spotify h1 {
+    padding : 50px ;
+    font-size: 2.6em;
+}
+
+.contenu_telecharge_spotify p {
+    padding : 20px  ;
+    font-weight: 900;
+}
+
+/* --------------------------------- CSS SECTION 2 et 3 ------------------------------------*/ 
+
+.contenu_section_slogan {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(30, 215, 96);
+}
+
+.contenu_section_slogan div {
+    width : 50% ; 
+}
+
+.img_slogan div{
+    font-size: 0;
+    width: 100%;
+}
+
+.img_slogan img {
+    width: 100%;   
+}
+
+.voir_ici {
+    position: relative;
+    background-color: white;
+    color : black ; 
+    width: 100%;
+    top : 0 ; 
+}  
+
+/* --------------------------------- CSS SECTION 4 ------------------------------------*/ 
+
+.contenu_pictogramme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.vignette {
+    width: 20%;
+    padding: 10px;
+    margin : 10px 20px ; 
+    text-align: center;
+}
+
+.vignette img {
+    width: 100% ; 
+}
+
+.contenu_pictogramme div div {
+    width : 50% ; 
+    margin : auto ;
+}
