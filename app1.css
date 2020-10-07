@@ -9,6 +9,35 @@
     font-family: 'Biryani', sans-serif;
 }
 
+/* --------------------------------- CSS HEADER ------------------------------------*/ 
+
+.contenu_header {
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_logo{
+    width: 15%;
+    padding: 30px;
+}
+
+.img_logo img {
+    width: 100% ; 
+}
+
+.contenu_header ul {
+    display: flex;
+    list-style: none;
+}
+
+.contenu_header li {
+    padding: 15px 30px ;
+}
+
 /* --------------------------------- CSS SECTION 1 ------------------------------------*/ 
 
 .contenu_telecharge_spotify {
@@ -60,18 +89,69 @@
     font-size: 0;
     width: 100%;
 }
-
-.img_slogan img {
-    width: 100%;   
+.contenu1 {
+    background-image: url("images/james-stamler-k3heD_KwH0A-unsplash.jpg");
+}
+.img_slogan {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
-.voir_ici {
-    position: relative;
-    background-color: white;
-    color : black ; 
+.img_slogan h1 {
     width: 100%;
-    top : 0 ; 
-}  
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.253);
+    color: rgb(0, 0, 0);
+    height: 100%;
+    padding-top: 150px;
+    font-size: 2em;
+    text-transform: uppercase;
+    opacity: 0;
+}
+
+.img_slogan h1:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#section_slogan1 {
+    margin: 20px auto;
+}
+
+.contenu2 {
+    background-image: url(images/Mockup1.jpg);
+}
+
+.slogan {
+    padding: 20px ;
+}
+.slogan2 {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.slogan1 {
+    color: black ;
+    background-color: rgba(255, 255, 255,0.5); 
+}
+
+.slogan h1,p{
+    padding: 20px;
+}
+
+.slogan h1{
+    font-weight: 900;
+    font-size: 2em;
+    
+}
+
 
 /* --------------------------------- CSS SECTION 4 ------------------------------------*/ 
 
