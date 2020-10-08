@@ -166,4 +166,50 @@ h3 {
     align-items: center;
 }
 
+/*---------------------------------------CSS FOOTER ----------------------------------------*/
+
+.contenu_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+.reseau_sociaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 20% ; 
+}
+
+.reseau_sociaux div {
+    width : 20% ; 
+    padding: 15px;
+}
+
+.reseau_sociaux div img {
+    width: 100%;
+}
+
+.contenu_footer ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.contenu_footer li {
+    width: 20%;
+    padding: 10px;
+}
+
+.contenu_footer img {
+    width: 100%;
+}
+
+#retour_accueil {
+    width: 50%;
+    font-size: 0.8em;
+}
 

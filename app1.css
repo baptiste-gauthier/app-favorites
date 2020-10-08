@@ -38,6 +38,11 @@
     padding: 15px 30px ;
 }
 
+.contenu_header li:hover {
+    color : rgb(30, 215, 96) ; 
+    cursor: pointer;
+}
+
 /* --------------------------------- CSS SECTION 1 ------------------------------------*/ 
 
 .contenu_telecharge_spotify {
@@ -168,7 +173,7 @@
     padding: 10px;
     margin : 10px 20px ; 
     text-align: center;
-    height: 40vh;
+   
 }
 
 .vignette img {
@@ -176,6 +181,53 @@
 }
 
 .contenu_pictogramme div div {
-    width : 50% ; 
+    width : 100% ; 
     margin : auto ;
+}
+
+/* --------------------------------- CSS FOOTER ------------------------------------*/ 
+
+.contenu_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+.reseau_sociaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 20% ; 
+}
+
+.reseau_sociaux div {
+    width : 20% ; 
+    padding: 15px;
+}
+
+.reseau_sociaux div img {
+    width: 100%;
+}
+
+.contenu_footer ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.contenu_footer li {
+    width: 20%;
+    padding: 10px;
+}
+
+.contenu_footer img {
+    width: 100%;
+}
+
+#retour_accueil {
+    width: 50%;
+    font-size: 0.8em;
 }
