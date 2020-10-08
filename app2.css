@@ -48,9 +48,15 @@ header {
     top: 0;
 }
 
+header li:hover {
+    color: #E50914;
+    cursor: pointer;
+}
+
 section {
     height: 100vh;
     background-color: black;
+    
 }
 
 h1, p {
@@ -75,6 +81,7 @@ p{
     object-fit: cover;
     display: flex;
     align-items: center;
+    
 }
 
 
@@ -100,6 +107,7 @@ button {
     padding: 10px 20px;
     text-transform: uppercase;
     margin: 20px;
+    font-weight: 600;
 }
 
 button:hover {
@@ -111,6 +119,39 @@ button:hover {
 form {
     display: flex;
     justify-content:center;
+}
+
+.contenu_pres_netflix {
+    width : 40% ; 
+    margin:  auto;
+    text-align: center;
+    padding-bottom: 15%;
+}
+
+.picto {
+    width: 80% ; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picto div {
+    width : 40% ; 
+}
+
+.picto div img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 2vw;
+    padding: 20px;
+}
+
+#section_tel {
+    display: flex;
+    align-items: center;
 }
 
 /*---------------------------------------CSS SECTION 3 (VIDEO) ----------------------------------------*/
