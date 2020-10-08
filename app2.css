@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color : white ; 
+}
+
+/*---------------------------------------CSS HEADER----------------------------------------*/
+
+.contenu_header {
+    background-color: rgba(0, 0, 0,0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenu_header div {
+    width: 15% ; 
+    padding: 10px;
+}
+
+.contenu_header div img {
+    width: 100% ; 
+}
+
+.contenu_header ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.contenu_header li {
+    padding: 10px 20px;
+    margin : 0px 20px ;
+    font-size: 1.2vw;
+}
+
+#bouton_seconnecter {
+    background-color: #E50914;
+    font-weight: 600;
+}
+
+header {
+    position: fixed;
+    top: 0;
+}
+
+section {
+    height: 100vh;
+    background-color: black;
+}
+
+h1, p {
+    padding: 10px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+p{
+    font-size: 1.2vw ;
+}
+
+/*---------------------------------------CSS SECTION 1----------------------------------------*/
+
+#pres_netflix {
+    background-image: url(images/thibault-penin-AWOl7qqsffM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
+
+.bloc {
+    width : 50% ; 
+}
+
+.image img {
+    width:100% ; 
+}
+
+.contenu_section_tel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+button {
+    background-color: #E50914;
+    color: white;
+    border: 0px;
+    border-radius: 2em;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color:  #E50914;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content:center;
+}
+
+/*---------------------------------------CSS SECTION 3 (VIDEO) ----------------------------------------*/
+#section_video {
+    display: flex;
+    align-items: center;
+}
+
+.contenu_bloc_texte{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
