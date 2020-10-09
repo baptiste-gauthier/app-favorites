@@ -102,6 +102,7 @@
 
 #galerie {
     background-color: #fde9e4;
+    padding: 30px;
 }
 
 .contenu_galerie {
@@ -140,6 +141,8 @@
 .contenu_photo_tel {
     display: flex;
     align-items: center;
+    height: 100%;
+    overflow: hidden;
 }
 
 .contenu_photo_tel > div {
@@ -171,10 +174,39 @@ button:hover {
     cursor: pointer;
 }
 
-.texte h1,p {
+.texte h1,.texte p {
     padding: 10px;
 }
 
 .texte h1 {
     font-size: 2vw;
+  
+}
+
+.screenshoot div{
+    height: 100%;
+    font-size: 0;
+}
+/* ----------------------------CSS SECTION 4 (RS) -------------------------------------*/
+
+.contenu_rs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_rs {
+    display: flex;
+    justify-content: center;
+    width: 13% ;
+    padding: 20px; 
+}
+
+.logo_rs div img{
+    width: 100%;
+}
+
+.logo_rs div {
+    width: 100%;
+    padding: 10px;
 }
