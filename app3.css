@@ -83,6 +83,11 @@
     align-items: center;
     width: 50% ; 
 }
+
+.img_store div {
+    width: 100% ; 
+}
+
 .applis p {
     width: 50% ; 
 }
@@ -97,6 +102,8 @@
 .logo div{
     width : 20% ; 
 }
+
+
 
 /* ----------------------------CSS SECTION 2 (GALERIE) -------------------------------------*/
 
@@ -117,8 +124,14 @@
     align-items: center;
 }
 
+.galerie_vignette h1,.galerie_vignette p {
+    padding: 5px;
+}
+
 .vignette {
     width: 30% ; 
+    height: 70vh;
+    overflow: hidden;
 }
 
 .vignette div img {
@@ -179,7 +192,7 @@ button:hover {
 }
 
 .texte h1 {
-    font-size: 2vw;
+    font-size: 2.2vw;
   
 }
 
@@ -193,6 +206,8 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #44b8b0;
+    font-weight: 600;
 }
 
 .logo_rs {

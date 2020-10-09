@@ -10,12 +10,16 @@ body {
     font-family: 'Zilla Slab', serif;
 }
 
+#vignette {
+    height : 75vh ; 
+    background-color:#f1eaea;
+}
+
 .contenu_vignette {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center ;
-    background-color:#f1eaea;
     padding: 20px;
 
 }
@@ -107,4 +111,17 @@ button:hover {
     padding: 30px;
     margin: 10px;
     color: white;
+}
+
+.contenu_footer {
+    display: flex;
+    justify-content: center;
+    color:white ; 
+    background-color:  rgb(3, 26, 61);
+
+}
+
+.contenu_footer p {
+    font-size: 1.6vw;
+    padding: 20px;
 }
